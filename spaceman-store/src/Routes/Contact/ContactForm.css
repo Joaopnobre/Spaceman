@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lato:wght@300&family=Oswald:wght@300&family=Poppins:ital,wght@1,100&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap");
+
+.hero-mid {
+  width: 100%;
+}
+
+/* img {
+  height: 600px;
+} */
+
+.form-container {
+  margin: 4rem 6rem;
+  color: black;
+}
+
+.form-container h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.form-container form {
+  display: column;
+  flex-direction: center;
+  padding-top: 3rem;
+  width: 50%;
+  margin: auto;
+}
+
+.form-container input {
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 3rem;
+  border: 1px solid #98d9d1;
+}
+
+.form-container textarea {
+  display: flex;
+  flex-direction: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 3rem;
+  border: 1px solid #98d9d1;
+  background-color: white;
+}
+
+.contact-btn {
+  display: inline;
+}

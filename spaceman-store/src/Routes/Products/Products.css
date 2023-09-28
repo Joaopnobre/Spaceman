@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lato:wght@300&family=Oswald:wght@300&family=Poppins:ital,wght@1,100&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap");
+h2 {
+  font-family: "Inclusive Sans", sans-serif;
+  font-size: 30px;
+  margin-top: 60px;
+}
+.product-img {
+  width: 350px;
+  height: 400px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-around;
+  width: 350px;
+}
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  row-gap: 10px;
+  column-gap: 10px;
+justify-content: center;
+}
+
+.news-img{
+width: 500px;
+height: 500px;
+}

@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lato:wght@300&family=Oswald:wght@300&family=Poppins:ital,wght@1,100&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap");
+
+.footer {
+  padding: 1.5rem 4rem;
+  background-color: black;
+  color: white;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top i {
+  color: white;
+  font-size: 2rem;
+  margin-left: 1rem;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.top i:hover {
+  color: var(--cor4);
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.bottom {
+  padding-top: 2rem;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.bottom div {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.bottom h4 {
+  font-size: 1.3rem;
+  padding: 1rem 0 0.8rem 0;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 4rem;
+  font-size: 1.1rem;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.bottom a:hover {
+  text-decoration: underline;
+}
+
+.icons{
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
