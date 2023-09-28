@@ -4,7 +4,7 @@ import "./LoginStyles.css";
 
 const SignupModal = ({ isOpen, onRequestClose }) => {
   return (
-    <Modal className="page-container"
+    <Modal className="SignUp-container"
       isOpen={isOpen}
       onRequestClose={onRequestClose}
       contentLabel="Sign Up Modal"

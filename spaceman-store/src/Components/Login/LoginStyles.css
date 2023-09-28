@@ -1,140 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lato:wght@300&family=Oswald:wght@300&family=Poppins:ital,wght@1,100&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lato:wght@300&family=Oswald:wght@300&family=Poppins:ital,wght@1,100&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap");
 
-
-button{
-    font-size: 16px;
-    cursor: pointer;
-    font-family: 'Inclusive Sans', sans-serif;
+button {
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Inclusive Sans", sans-serif;
 }
 
-.page-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 80%;
-    background-color: white;
-    overflow: hidden;
+.SignUp-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+  background-color: white;
+  overflow: hidden;
 }
 
-.sign-up{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    padding: 16px;
-    overflow: hidden;
+.sign-up {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  overflow: hidden;
 }
 
-.auth-form {
-    position: absolute;
-    width: 100%;
-    max-width: 300px;
-    padding: 16px;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 300ms, transform 500ms;
-}
-.sign-up.active{
-     opacity: 1;
-     transform: translateY(0) !important;
-     pointer-events: all;
+.sign-up.active {
+  opacity: 1;
+  transform: translateY(0) !important;
+  pointer-events: all;
 }
 
-
-
-.dont{
-    margin: 8px 0 16px;
-    font-size: 14px;
-    color: gray;
+.dont {
+  margin: 8px 0 16px;
+  font-size: 14px;
+  color: gray;
 }
 
-.dont:hover{
-    text-decoration: underline;
+.dont:hover {
+  text-decoration: underline;
 }
 
-
-.register{
-    border: none;
-    font-size: 14px;
-    padding: 0;
-    transition: opacity 300ms ease-in-out;
-    font-family: 'Inclusive Sans', sans-serif;
-    background-color: transparent;
-    color: black;
+.register {
+  border: none;
+  font-size: 14px;
+  padding: 0;
+  transition: opacity 300ms ease-in-out;
+  font-family: "Inclusive Sans", sans-serif;
+  background-color: transparent;
+  color: black;
 }
 
-.register:hover{
-    border: none;
-    text-decoration: underline;
-    font-size: 14px;
-    padding: 0;
-    transition: opacity 300ms ease-in-out;
-    font-family: 'Inclusive Sans', sans-serif;
-    background-color: transparent;
-    color: black;
+.register:hover {
+  border: none;
+  text-decoration: underline;
+  font-size: 14px;
+  padding: 0;
+  transition: opacity 300ms ease-in-out;
+  font-family: "Inclusive Sans", sans-serif;
+  background-color: transparent;
+  color: black;
 }
-
 
 .close {
-    margin-top: 20px;
-    background-color: var(--cor3);
+  margin-top: 20px;
+  background-color: var(--cor3);
 }
 
-.close:hover{
-    background-color: var(--cor4);
+.close:hover {
+  background-color: var(--cor4);
 }
 
 .auth-form button[type="submit"] {
-    background-color: #7A4FF0;
-    color: white;
-    font-weight: 500;
-    border: none;
-    border-radius: 24px;
-    padding: 8px 32px;
-    font-size: 14px;
-    transition: background-color 300ms ease-in-out;
+  background-color: #7a4ff0;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 24px;
+  padding: 8px 32px;
+  font-size: 14px;
+  transition: background-color 300ms ease-in-out;
 }
 
-.auth-form button[type="submit"]:hover{
-    background-color: #3DD9AE;
-} 
-
-/* Aqui */
-
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-bottom: 16px;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
 }
 
-.form-group--2-col{
-    row-gap:0;
-    margin-bottom: 0;
-}
-
-.form-group--2-col > .formp-group{
-    flex-basis: 50%;
-}
-
-.grop-froup label {
-    color:antiquewhite;
-    font-size: 12px;
-}
-
-form input{
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 8px;
-    transition:background-color 300ms ease-in-out;
+.form-group input {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 8px;
+  transition: background-color 300ms ease-in-out;
 }
 
 .form-group input:hover,
-.form-group input:active{
-    background-color: white;
+.form-group input:active {
+  background-color: white;
 }
-
