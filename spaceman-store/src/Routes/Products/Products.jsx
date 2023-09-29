@@ -4,7 +4,10 @@ import { News } from "../../fake_api/News";
 function Products() {
   return (
     <>
-      <h2>N E W S</h2>
+    <div className="line">
+      <h2 className="product-title">N E W S</h2>
+      <div className="line"></div>
+      </div>
       <div className="news">
       {News.map((news, id) => {
         return (
@@ -14,20 +17,25 @@ function Products() {
         );
       })}
       </div>
-
-      <h2>S A L E</h2>
+<div className="line">  
+      <h2 className="product-title">S A L E</h2>
+      <div className="line"></div>
+      </div>
+    
       <div className="products">
         {StoreItems.map((product, index) => {
           return (
             <div key={index}>
-              <h2 className="title">{product.name}</h2>
+              <div className="margin">
+              <h4 className="title">{product.title}</h4>
+              </div>
               <img
                 className="product-img"
                 src={product.image}
                 alt={product.name}
               />
               <div className="product-info">
-                <p>{product.price}</p>
+                <p className="price">{product.price}</p>
                 <button className="shopping-cart">Shop</button>
               </div>
             </div>

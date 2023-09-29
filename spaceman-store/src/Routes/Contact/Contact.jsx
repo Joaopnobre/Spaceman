@@ -1,13 +1,16 @@
-import Hero from "../../Components/Hero/Hero";
+import ContactHero from "../../Components/Hero/ContactHero";
 import ContactForm from "./ContactForm";
+// import Alien from "../../assets/alien.webp";
+// import Foto from "../../assets/tricks.webp"
 
 function Contact() {
   return (
     <>
-      <Hero
+      <ContactHero
+        className="contact"
         name="hero-mid"
-        title="Make Contact"
-        heroImg="https://images.pexels.com/photos/7169848/pexels-photo-7169848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        // title="Make Contact"
+        // heroImg={Foto}
       />
       <ContactForm></ContactForm>
     </>

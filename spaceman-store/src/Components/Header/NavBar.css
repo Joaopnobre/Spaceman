@@ -3,7 +3,7 @@
 :root {
     --cor0:rgb(114, 0, 167);
     --cor1:rgb(0, 157, 255);
-    --cor2: rgb(236, 48, 142);
+    --cor2: rgb(240, 108, 174);
     --cor3:#9451db;
    --cor4: #98d9d1;
   }
@@ -21,7 +21,7 @@
   }
   
   .nav-bar-logo {
-    color: var(--cor3);
+    color: var(--cor1);
     padding: 20px;
     font-size: 2rem;
     cursor: pointer;
@@ -39,7 +39,7 @@
   
   .nav-links {
     text-decoration: none;
-    color: var(--cor4);
+    color: var(--cor2);
     font-size: 1.2rem;
     font-weight: 600;
     padding: 15px;
@@ -52,7 +52,7 @@
   
   .nav-links :hover {
     cursor: pointer;
-    border: 3px solid var(--cor3);
+    border: 3px solid var(--cor1);
     border-bottom-color: transparent;
     border-left-color:transparent;
     border-right-color: transparent;
@@ -61,7 +61,7 @@
   }
   
   button {
-    background-color: var(--cor4);
+    background-color: var(--cor1);
     color: white;
     font-family: "Roboto Condensed", sans-serif;
     padding: 0.7rem 1rem;
@@ -74,7 +74,7 @@
   }
   
   button:hover {
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     color: white;
   }
   

@@ -1,26 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lato:wght@300&family=Oswald:wght@300&family=Poppins:ital,wght@1,100&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap");
-h2 {
+:root {
+  --cor0: rgb(114, 0, 167);
+  --cor1: rgb(0, 157, 255);
+  --cor2: rgb(240, 108, 174);
+  --cor3: #9451db;
+  --cor4: #98d9d1;
+}
+
+.product-title {
   font-family: "Inclusive Sans", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 60px;
+  height: 10px;
+  margin-top: 20px;
+  padding: 10px;
 }
 .product-img {
   width: 350px;
   height: 400px;
 }
 
+.product-img:hover {
+   width: 370px; 
+  cursor: pointer;
+}
+
 .products {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 10px 20px;
   row-gap: 10px;
   column-gap: 10px;
+  margin-top: 80px;
 }
 
 .product-info {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 350px;
+  border: solid var(--cor2);
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+.product-info:hover {
+  border: solid var(--cor1);
+  border-left-color: transparent;
+  border-top-color: transparent;
 }
 
 .news {
@@ -29,10 +57,48 @@ h2 {
   gap: 10px 20px;
   row-gap: 10px;
   column-gap: 10px;
-justify-content: center;
+  justify-content: center;
+  margin-top: 120px;
 }
 
-.news-img{
-width: 500px;
-height: 500px;
+.news-img {
+  width: 500px;
+  height: 500px;
+}
+
+.news-img:hover {
+  width: 600px;
+  cursor: pointer;
+}
+
+h4 {
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.margin {
+  display: flex;
+  justify-content: center;
+  border: solid var(--cor2);
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+}
+
+.margin:hover {
+  border: solid var(--cor1);
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+}
+
+.price:hover {
+  text-decoration: underline;
+}
+
+.product:hover{
+  width: 370px; 
+}
+
+.line{
+  width: 100%;
+  height: 10px;
+  background-color: var(--cor1);
 }

@@ -12,7 +12,7 @@ const Register = () => {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form className="form-group" onSubmit={handleSubmit}>
         <label htmlFor="name">Full name</label>
         <input
           value={name}
