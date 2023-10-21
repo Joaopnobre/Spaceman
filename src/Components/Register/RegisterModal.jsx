@@ -11,7 +11,7 @@ const RegisterModal = ({ isOpen, onRequestClose }) => {
       contentLabel="Sign Up Modal"
     >
       <div className="sign-up">
-        <h2>Register</h2>
+        <h2 className="welcome">Register</h2>
         <Register></Register>
         <button className="close" onClick={onRequestClose}>
           Back

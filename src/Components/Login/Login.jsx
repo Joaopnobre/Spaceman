@@ -1,5 +1,6 @@
 import { useState } from "react";
 import RegisterModal from "../Register/RegisterModal";
+
 const Login = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -41,7 +42,7 @@ const Login = () => {
         ></input>
         <button>Log in</button>
       </form>
-      <p className="dont">Don`t have an account?</p>
+      <p className="dont">Don't have an account?</p>
       <button onClick={OpenRegisterModal} className="register">Register</button>
         <RegisterModal isOpen={isModalOpen} onRequestClose={CloseRegisterModal} />
     </>

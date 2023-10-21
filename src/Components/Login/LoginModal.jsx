@@ -10,7 +10,7 @@ const SignupModal = ({ isOpen, onRequestClose }) => {
       contentLabel="Sign Up Modal"
     >
       <div className="sign-up">
-      <h2>Welcome to the Space</h2>
+      <h2 className='welcome'>Welcome to the Space</h2>
       <Login></Login>
       <button className='close' onClick={onRequestClose}>Close</button>
       </div>
