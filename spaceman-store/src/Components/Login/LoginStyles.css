@@ -92,3 +92,7 @@ form {
 .form-group input:active {
   background-color: white;
 }
+
+.welcome{
+  font-family: "Inclusive Sans", sans-serif;
+}
