@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lato:wght@300&family=Oswald:wght@300&family=Poppins:ital,wght@1,100&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap");
+
+button {
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.SignUp-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+  background-color: white;
+  overflow: hidden;
+}
+
+.sign-up {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.sign-up.active {
+  opacity: 1;
+  transform: translateY(0) !important;
+  pointer-events: all;
+}
+
+.dont {
+  margin: 8px 0 16px;
+  font-size: 14px;
+  color: gray;
+}
+
+.dont:hover {
+  text-decoration: underline;
+}
+
+.register {
+  border: none;
+  font-size: 14px;
+  padding: 0;
+  transition: opacity 300ms ease-in-out;
+  font-family: "Inclusive Sans", sans-serif;
+  background-color: transparent;
+  color: black;
+}
+
+.register:hover {
+  border: none;
+  text-decoration: underline;
+  font-size: 14px;
+  padding: 0;
+  transition: opacity 300ms ease-in-out;
+  font-family: "Inclusive Sans", sans-serif;
+  background-color: transparent;
+  color: black;
+}
+
+.close {
+  margin-top: 20px;
+  background-color: var(--cor2);
+}
+
+.close:hover {
+  background-color: var(--cor1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.form-group input {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 8px;
+  transition: background-color 300ms ease-in-out;
+}
+
+.form-group input:hover,
+.form-group input:active {
+  background-color: white;
+}

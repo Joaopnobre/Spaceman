@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lato:wght@300&family=Oswald:wght@300&family=Poppins:ital,wght@1,100&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+:root {
+    --cor0:rgb(114, 0, 167);
+    --cor1:rgb(0, 157, 255);
+    --cor2: rgb(240, 108, 174);
+    --cor3:#9451db;
+   --cor4: #98d9d1;
+  }
+  
+  .NavBarItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5, 30px;
+    box-shadow: 0 5px 15px 0;
+    border-radius: 5px;
+    width: 100%;
+    height: 80px;
+    font-family: 'Inclusive Sans', sans-serif;
+  }
+  
+  .nav-bar-logo {
+    color: var(--cor1);
+    padding: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+    
+  }
+  
+  
+  .nav-links {
+    text-decoration: none;
+    color: var(--cor2);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 15px;
+    white-space: nowrap;
+  }
+  
+  .nav-links-mobile {
+    display: none;
+  }
+  
+  .nav-links :hover {
+    cursor: pointer;
+    border: 3px solid var(--cor1);
+    border-bottom-color: transparent;
+    border-left-color:transparent;
+    border-right-color: transparent;
+    border-radius: 4px;
+   
+  }
+  
+  button {
+    background-color: var(--cor1);
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: var(--cor2);
+    color: white;
+  }
+  
