@@ -89,10 +89,6 @@ h4 {
   border-right-color: transparent;
 }
 
-.price:hover {
-  text-decoration: underline;
-}
-
 .product:hover{
   width: 370px; 
 }

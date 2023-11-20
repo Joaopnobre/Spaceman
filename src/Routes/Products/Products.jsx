@@ -1,32 +1,25 @@
-import { StoreItems } from "../../fake_api/FakeApi";
+import products from "../../fake_api/FakeApi";
 import "./Products.css";
-import { News } from "../../fake_api/News";
+import { useDispatch } from "react-redux";
+import { addProductToCart } from "../../redux/cart/CartAction";
+// import NewsProducts from "./News/NewsProducts";
 
 function Products() {
+  const dispatch = useDispatch();
+
+  const handleAddToCart = (productId) => {
+    dispatch(addProductToCart(productId));
+  };
   return (
     <>
-      <div className="line">
-        <h2 className="product-title">N E W S</h2>
-
-        <div className="line"></div>
-      </div>
-
-      <div className="news">
-        {News.map((news, id) => {
-          return (
-            <div key={id}>
-              <img className="news-img" src={news.img} alt={news.name} />
-            </div>
-          );
-        })}
-      </div>
+      {/* <NewsProducts></NewsProducts> */}
       <div className="line">
         <h2 className="product-title">S A L E</h2>
         <div className="line"></div>
       </div>
 
       <div className="products">
-        {StoreItems.map((product, index) => {
+        {products.map((product, index) => {
           return (
             <div key={index}>
               <div className="margin">
@@ -38,8 +31,13 @@ function Products() {
                 alt={product.name}
               />
               <div className="product-info">
-                <p className="price">{product.price}</p>
-                <button className="shopping-cart">Shop</button>
+                <p className="price">€{product.price}</p>
+                <button
+                  className="shopping-cart"
+                  onClick={() => handleAddToCart(product)}
+                >
+                  Shop
+                </button>
               </div>
             </div>
           );
