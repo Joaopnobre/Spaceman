@@ -1,6 +1,6 @@
-# React + Vite
+Welcome to my very first project in React.js. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It's a e-commerce skateboarding store, developing in React, Node.js, Javascript and Redux. 
 
 Currently, two official plugins are available:
 
