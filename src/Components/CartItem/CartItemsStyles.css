@@ -11,7 +11,7 @@
   height: 100%;
   background-color: #fff;
   overflow-y: auto;
-  /* background-image: linear-gradient(to bottom, transparent, white, var(--cor1)); */
+  background-image: linear-gradient(to bottom, transparent, white, rgb(228, 226, 226));
 }
 
 .bag {

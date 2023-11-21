@@ -17,9 +17,11 @@ const CartItem = ({ isOpen, onRequestClose }) => {
     dispatch(removeProductFromCart(productId));
   };
   const handleIncreaseClick = (productId) => {
+    console.log('Increase ID:', productId);
     dispatch(increaseProductQuantity(productId));
   };
   const handleDecreaseClick = (productId) => {
+    console.log('Decrease ID:', productId);
     dispatch(decreaseProductQuantity(productId));
   };
 
